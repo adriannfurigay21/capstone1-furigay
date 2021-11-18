@@ -2,7 +2,7 @@
 
 
 *{
-	font-family: "Bebas Neue", Manrope;
+	font-family: "Roboto", sans-serif;
 }
 
 #banner {
@@ -10,25 +10,69 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	margin-top: 1000px;
+	margin-bottom: 1000px;
+
 
 }
 
 #brand-font {
 	font-size: 1.5rem;
+	font-weight: bolder;
+
 }
 
-#sample-nav {
-	text-align: ;
+
+/*https://images.pexels.com/photos/414659/pexels-photo-414659.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940*/
+html, body {
+	background-image: url(https://images.pexels.com/photos/3772353/pexels-photo-3772353.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+	scroll-behavior: smooth;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+
 }
 
-body {
-	background-color: gray;
+div #logo {
+	height: 100px;
+	width: 100px;
 }
+
+nav {
+	background-color: #000000;
+	color: white;	
+	border-bottom: 1px solid white;
+}
+
+h2	{
+	font-weight: bold;
+	margin-top: 25vh;
+	margin-bottom: 20px;
+}
+
+#nav-hov:hover {
+  background-color: #808080;
+  border-radius: 10%;
+/*  font-size: 105%;*/
+}
+
+footer {
+	background-color: #000000;
+}
+
 
 .fab {
-		font-size: 2rem;
-		color: white;
+		font-size: 1.5rem;
+		color: white; 
+		
 }
+
+.fas {
+	font-size: 2rem;
+	color: white;
+}
+
 
 .navbar-nav {
 	margin-left: 5rem;
@@ -38,3 +82,22 @@ body {
 	height: 60vh;
 	width: 100%;
 }
+
+#jumbo-tool {
+	height: 100px;
+}
+
+.jumbotron {
+    background: rgba(204, 204, 204, 0.2);
+
+}
+
+#container-con {
+	margin-bottom: 25vh;
+}
+
+#my-project {
+	margin-top: 30vh;
+}
+	
+	
